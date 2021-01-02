@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Login from './login/Login';
+import AddExpense from './add-expense/AddExpense'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Login />
+    <AddExpense />
   </React.StrictMode>,
   document.getElementById('root')
 );
