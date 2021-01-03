@@ -3,16 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Login from './login/Login';
+import Main from './login/Login';
+import Test from './login/Login'
 import AddExpense from './add-expense/AddExpense'
+import Dashboard from './dashboard/Dashboard'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Login />
-    <AddExpense />
+    <App/>
+    <Main />
+    
+    {/* <Dashboard /> */}
   </React.StrictMode>,
+  
   document.getElementById('root')
 );
 
